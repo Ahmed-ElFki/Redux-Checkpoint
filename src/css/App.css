@@ -1,0 +1,35 @@
+body {
+	font-size: medium;
+}
+
+.todo-task,
+.todo-task-submit,
+button {
+	font-size: medium;
+	width: 300px;
+}
+
+.todo-add-form {
+	margin: 100px auto;
+	width: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.display-task {
+	width: 500px;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid #000;
+	box-shadow: 5px 5px #000;
+}
+
+.task-status {
+	width: 32px;
+	height: 32px;
+	margin-top: 10px;
+	padding-right: 10px;
+}
